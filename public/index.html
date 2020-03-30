@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Agenda</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="public/css/estilo.css">
+    <script src="public/js/inde.js"></script>
+    
+</head>
+<body  onload="datos()">
+ 
+    <h1 class="str">Agenda de contacto</h1>
+    <div class="container">
+        <form method="POST" style="padding:10px" id="enviar" >
+                <label   for="">Nombre</label>
+                <br>
+                <input id="nombre"type="text" placeholder="Nombre" required/>
+                <br>
+                <br>
+                <label   for="">Apellido</label>
+                <br>
+                <input id="apellido" type="text" placeholder="Apellido" required/>
+                <br>
+                <br>
+                <label   for="">Telefono</label>
+                <br>
+                <input  id="telefono" type="text" placeholder="Telefono" required />
+                <br>
+                <button  type="submit" style="margin-top:10px;" onclick="enviar()" >Enviar</button>
+               
+ 
+        </form>
+        <h2>Listado de Contactos</h2>
+        <div class="Mostrar" id="prueba">
+            
+            
+            
+        </div> 
+        
+    </div>
+        
+               
+</body>
+</html>
